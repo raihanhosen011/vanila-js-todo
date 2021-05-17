@@ -1,0 +1,46 @@
+ul#todo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.todo {
+  width: 275px;
+  background: #198754;
+  margin-top: 16px;
+  margin-left: -34px;
+  border-radius: 8px;
+  border: 1px solid;
+  display: flex;
+  list-style: none;
+  padding: 8px;
+  color: white;
+}
+button.deletBtn {
+  margin-left: 44px;
+}
+
+li.list-item {
+  width: 180px;
+}
+
+button {
+  border: none;
+  outline: none;
+  border: 1px solid white;
+  background: #ffc107;
+  margin-right: 4px;
+}
+button {
+  color: #2e634a;
+}input#todo-li {
+  padding: 10px;
+  border: 2px solid #198754;
+  border-radius: 5px;
+  outline: none;
+  color: #198754;
+}
+
+::placeholder {
+  color: #198754;
+}
